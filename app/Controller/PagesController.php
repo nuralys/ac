@@ -72,6 +72,10 @@ class PagesController extends AppController {
 		}
 	}
 
+	public function contacts(){
+		
+	}
+
 	public function contactus(){
 
 		if( !empty($this->request->data) ){

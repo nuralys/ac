@@ -3,6 +3,7 @@
 	Router::connect('/admin/users/:action', array('controller' => 'users','admin' => true));
 	Router::connect('/admin', array('controller' => 'pages', 'action' => 'index', 'admin' => true));
 	Router::connect('/page/*', array('controller' => 'pages', 'action' => 'index'));
+	Router::connect('/contacts', array('controller' => 'pages', 'action' => 'contacts'));
 	Router::connect('/search/*', array('controller' => 'products', 'action' => 'search'));
 	Router::connect('/portfolio', array('controller' => 'portfolios', 'action' => 'index'));
 	Router::connect('/portfolio/*', array('controller' => 'portfolios', 'action' => 'view'));
