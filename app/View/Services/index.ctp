@@ -17,7 +17,7 @@
 		<div class="service-wr">
 			<figure class="service_figure">
 				<a href="#">
-					<img alt="#" src="/img/service-types.jpg">
+					<img alt="/service/<?=$item['Service']['alias']?>" src="/img/service/<?=$item['Service']['img']?>">
 				</a>
 			</figure>
 			<a class="service_heading" href="#"><?=$item['Service']['title']?></a>
