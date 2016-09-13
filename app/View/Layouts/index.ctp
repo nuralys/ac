@@ -80,7 +80,7 @@
 						<?php foreach($services as $item): ?>
 						<li>
 							<a href="/service/<?=$item['Service']['alias']?>">
-							<img src="/img/service/thumbs/<?=$item['Service']['img']?>">
+							<img src="/img/service/<?=$item['Service']['icon']?>">
 							<span><?=$item['Service']['title']?></span>
 							</a>
 						</li>						

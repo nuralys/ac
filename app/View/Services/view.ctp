@@ -30,7 +30,7 @@
 	</ul>
 <article class="serv_des">
 	<figure>
-		<img alt="Создание сайтов в астане" src="/img/ast.jpg"/>
+		<img alt="Создание сайтов в астане" src="/img/service/<?php echo $data['Service']['img'] ?>"/>
 	</figure>
 	<div class="des">
 		<h3><?php echo $data['Service']['title'] ?></h3>

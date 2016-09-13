@@ -10,10 +10,10 @@
 			<nav class="mobile">
 				<ul class="nav fl_r">
 					<li class="active"><a href="/">О Нас</a></li>
-					<li><a href="services">Услуги</a></li>
-					<li><a href="portfolio">Наши работы</a></li>
-					<li><a href="blog">Блог</a></li>
-					<li><a href="contacts">Контакты</a></li>
+					<li><a href="/services">Услуги</a></li>
+					<li><a href="/portfolio">Наши работы</a></li>
+					<li><a href="/blog">Блог</a></li>
+					<li><a href="/contacts">Контакты</a></li>
 				</ul>
 				<div class="mob_start"></div>
 				<div class="mob_close"></div>

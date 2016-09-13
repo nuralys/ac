@@ -75,9 +75,7 @@ class ServicesController extends AppController{
 
 	public function index(){
 		$title_for_layout = 'Услуги';
-		$data = $this->Service->find('all', array(
-			'order' => array('Service.id' => 'desc')
-			));
+		$data = $this->Service->find('all');
 		// $steps = $this->Service->Step
 		// debug($data);
 		$meta['keywords'] = 'keywords';
