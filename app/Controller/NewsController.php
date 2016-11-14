@@ -75,7 +75,7 @@ class NewsController extends AppController{
 		$meta['keywords'] = 'клю';
 		$meta['description'] = 'опи';
 		$this->Paginator->settings = array(
-				'fields' => array('id', 'title', 'body', 'date', 'img'),
+				'fields' => array('id', 'title', 'body', 'date', 'img', 'alias'),
 				'recursive' => -1,
 				'limit' => 10,
 				'order' => array('date' => 'desc')
