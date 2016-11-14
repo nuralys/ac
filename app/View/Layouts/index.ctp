@@ -35,7 +35,7 @@
 					</nav>
 					<a class="m_number" href="#"></a>
 				</div>
-				<h1>Веб студия "Астана Креатив"<br> Cоздание и продвижение  сайтов в Астане</h1>
+				<h1>Веб студия "AstanaCreative"<br>Эффективно создаем и продвигаем сайты</h1>
 			</div>
 		</header>
 		<main role="main">
@@ -57,19 +57,12 @@
 				</li>
 			</ul>
 			<div class="main_wr">
-				<div class="ov">
+				<h2 class="ov">
 					<span class="up_heading fl_l">
-						Почему выберают нас
+						Эффективность и креативность
 					</span>
-				</div>
-				<ul class="benefits clearfix">
-					<li><span>Более 300 реализованных проектов</span></li>
-					<li><span>Техническая поддержка 24/7</span></li>
-					<li><span>Увеличиваем продажи или возвращаем деньги</span></li>
-					<li><span>4 года на казахстанском рынке</span></li>
-					<li><span>34% новых клиентов приходит по рекомендациям</span></li>
-					<li><span>82% клиентов переходят на долгосрочное сотрудничество</span></li>
-				</ul>
+				</h2>
+				<p class="ast_des">AstanaCreative — Веб-студия имеющая полный аспект в свфере веб-построения, в основе всех наших креативных решений лежит знание, которое мы получаем после обработки огромного количества данных о продукте, потребителе, конкурентах и многом другом. этот подход позволяет нам создавать инновационные и точные решения и занимать первые места в отраслевых рейтингах.</p>
 				<div class="ov">
 					<div class="ov">
 						<span class="up_heading fl_r">
@@ -88,27 +81,7 @@
 					</ul>
 					<a class="btn" href="/services">Посмотреть Наши Услуги</a>
 				</div>
-				<div class="ov">
-					<div class="ov">
-						<span class="up_heading fl_l">
-							Наши клиенты
-						</span>
-					</div>
-					<ul class="client_ul">
-					<?php foreach($clients as $item): ?>
-						<li>
-							<img alt="" src="/img/client/thumbs/<?=$item['Client']['img']?>"/>
-						</li>
-						<?php endforeach ?>					
-					</ul>
-					<a class="btn" href="#">Стать нашим клиентом</a>
-				</div>
-				<h2 class="ov">
-					<span class="up_heading fl_r">
-						Веб-студия "Астана Креатив"
-					</span>
-				</h2>
-				<p class="ast_des">Компания "Astana Creative" является динамично развивающейся компанией в сфере IT-технологий. Основными направлениями деятельности является создание сайтов, веб-дизайн, SEO оптимизация, а также продвижение ваших веб-сайтов в поисковиках и социальных сетях. Нами было успешно реализовано более 300 проектов для государственных структур, компании малого и среднего бизнеса.</p>
+
 				<div class="five_reason clearfix">
 					<div class="ov">
 						<span class="up_heading fl_l">
@@ -169,6 +142,21 @@
 							</ul>
 						</div>
 					</section>
+				</div>
+				<div class="ov">
+					<div class="ov">
+						<span class="up_heading fl_l">
+							Наши клиенты
+						</span>
+					</div>
+					<ul class="client_ul">
+					<?php foreach($clients as $item): ?>
+						<li>
+							<img alt="" src="/img/client/thumbs/<?=$item['Client']['img']?>"/>
+						</li>
+						<?php endforeach ?>					
+					</ul>
+					<a class="btn" href="#">Стать нашим клиентом</a>
 				</div>
 				<div class="ov">
 					<span class="up_heading fl_r">
