@@ -8,7 +8,9 @@ class PagesController extends AppController {
 	public function home(){
 		$portfolios = $this->Portfolio->find('all');
 		$clients = $this->Client->find('all');
-		$services = $this->Service->find('all');
+		$services = $this->Service->find('all', array(
+			'conditions' => array('parent_id'=>0)
+			));
 		// $news = $this->News->find('all', array(
 		// 	'fields' => array('id', 'title', 'img', 'date')
 		// ));
